@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todos</title>
+</head>
+<body>
+    <h1 class="title">Todo list</h1>
+<ul>
+    {% for todo in todos %}
+    <li class="text">
+        {{ todo.title }}
+    </li>
+    {% endfor %}
+</ul>
+<a class="link" href="/">Back to main page</a>
+<img width="400" src="https://media0.giphy.com/media/vhsNmFjuN4WDS/200w.gif?cid=6c09b952e6gewefrn7n3qc0bmcy7psqyqhp7t1qsgjwccb1r&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="me working">
+
+</body>
+</html>
